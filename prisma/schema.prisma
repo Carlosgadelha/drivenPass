@@ -46,8 +46,8 @@ model SecureNotes{
 }
 
 enum TypesCards {
-  CreditCard
-  DebitCard
+  creditCard
+  debitCard
   both
 }
 

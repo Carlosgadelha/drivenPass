@@ -1,7 +1,6 @@
 import { SecureNotes } from "@prisma/client";
 import Cryptr from "cryptr";
 
-import credentialRepository from "../repositories/credentialRepository.js";
 import secureNotesRepository from "../repositories/secureNotesRepository.js";
 
 export type CreateSecureNotesData = Omit<SecureNotes, "id"|"createdAt"|"updatedAt">;
