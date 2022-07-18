@@ -37,7 +37,7 @@ model Credentials{
 
 model SecureNotes{
   id Int @id @default(autoincrement())
-  title String @unique  @db.VarChar(50)
+  title String  @db.VarChar(50)
   content String @db.VarChar(1000)
   user Users @relation(fields: [userId], references: [id])
   userId Int
